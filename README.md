@@ -31,4 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+
+### Depoyed on Firebase
+
 https://spacex-graphql-d5397.web.app
