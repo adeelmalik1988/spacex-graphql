@@ -2,6 +2,7 @@ import React, { useCallback, useState } from 'react';
 import './App.css';
 import MissionContainer from './components/Mission';
 import MissionInfoContainer from './components/MissionInfo';
+import spacex from './spacex.png'
 
 
 function App() {
@@ -15,12 +16,17 @@ function App() {
 
 
   return (
+    
+    <div>
+      <img src={spacex} alt="SpaceX logo" className='spacexlogo'   />
+
     <div className="App-contianer">
       <MissionContainer  handleIdChange={handleIdChange} />
       <MissionInfoContainer id={id} />
 
 
 
+    </div>
     </div>
   );
 }

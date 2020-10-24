@@ -1,10 +1,11 @@
 .LaunchList{
     height: 100vh;
     overflow:  hidden auto;
-    background-color: #ececec;
+    background-color: #1876D2;
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
+    color: honeydew;
 
 }
 
@@ -15,8 +16,9 @@
 }
 
 .LaunchList_item{
-    padding-top: 20px;
-    padding-bottom: 20px;
+   
     border-top: 1px solid #919191;
     cursor: pointer;
+    color: honeydew;
+    
 }

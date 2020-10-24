@@ -18,7 +18,7 @@ const MissionList: React.FC<Props> = ({ data, handleIdChange }) => {
     return (
         <div className={className} >
             <h3>
-                Launches
+                LAUNCHES
             </h3>
             <ol className={`${className}_list`} >
                 {
